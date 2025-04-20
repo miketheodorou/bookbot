@@ -37,5 +37,6 @@ Found {num_words} total words
       for character, count in char_dict.items():
           if character.isalpha():
               output += f"{character}: {count}\n"
+    output += '============= END ==============='
     return output;
     
